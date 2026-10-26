@@ -34,7 +34,7 @@ Add your password to src/SolarSystem.App/appsettings.json:
 }
 ```
 
-**2. Configure Database**
+**3. Configure Database**
 Add table with all planets in your database using [planet.sql](https://github.com/ASDlikeS/SolarSystem/blob/master/Planets.sql) script.
 
 
