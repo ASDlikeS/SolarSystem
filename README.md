@@ -15,7 +15,7 @@ This project simulates the gravitational interaction of planets using Newton's l
 ### How to run
 
 **1. Start the Database**
-Start postgreSQL localy or using Docker:
+Start PostgreSQL locally or using Docker:
 ```bash
 docker docker run -d \
   --name postgres \
@@ -34,8 +34,11 @@ Add your password to src/SolarSystem.App/appsettings.json:
 }
 ```
 
+**2. Configure Database**
+Add table with all planets in your database using [planet.sql](https://github.com/ASDlikeS/SolarSystem/blob/master/Planets.sql) script.
 
-**3. Run the App**
+
+**4. Run the App**
 Add your password to src/SolarSystem.App/appsettings.json:
 ```bash
 dotnet run --project src/SolarSystem.App
