@@ -1,6 +1,7 @@
 # Solar System Simulation (C# & RayLib)
-
 A 2D N-body physics simulation of the Solar System. 
+
+![Solar System](solar-system-3-946762319.gif)
 
 ### What is it?
 This project simulates the gravitational interaction of planets using Newton's law of universal gravitation. Data (mass, radius, orbit, textures) is stored in a PostgreSQL database. It was built to practice physics simulation, clean architecture, and game development loops with RayLib.
